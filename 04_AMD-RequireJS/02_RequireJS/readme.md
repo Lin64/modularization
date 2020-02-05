@@ -1,0 +1,15 @@
+1、下载require.js,并引入
+    官网：http://www.requirejs.cn/
+    github:https://github.com/requirejs/requirejs
+    将require.js导入项目：js/libs/require.js
+2、创建项目结构
+    /-js
+        /-libs
+            /-require.js
+        /-modules
+            /-alterer.js
+            /-dataService.js
+        /-main.js
+    /-index.html
+3、编写js文件
+    各模块以及总模块，html引入
